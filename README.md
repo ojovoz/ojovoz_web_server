@@ -33,6 +33,8 @@ ojoVoz webServer
 
 -- $smtp_server_port: SMTP port of your server. Usually 578.
 
+-- $multimedia_subject: use a safe character string to filter out ojovoz incoming messages.
+
 You can modify other variables, names are self-explanatory.
 
 2.5. Upload all folders to your server. You should upload them as subfolders of the folder defined in $channel_folder (see above)
